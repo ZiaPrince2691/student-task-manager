@@ -127,9 +127,9 @@ We used a **feature-branch workflow**:
 
 ```
 student-task-manager/
-├── index.html        # Page structure
-├── style.css     # Styling
-├── app.js        # Application logic
+├── index.html       # Page structure
+├── style.css        # Styling
+├── script.js        # Application logic
 └── README.md
 ```
 
@@ -137,13 +137,14 @@ student-task-manager/
 
 | Screen | Preview |
 |--------|---------|
-| Home / Add task form | `![Home](screenshots/home.png)` |
-| Task list with tasks | `![Task list](screenshots/task-list.png)` |
+| Add task form | ![Home](screenshots/add_task_form.png) |
+| Task list with tasks | ![Task list](screenshots/task_list.png) |
 
 ## Version History
 
-| Version | Day | Changes |
-|---------|-----|---------|
+| Version | Day |
+|---------|-----|
+| v1.0.0 | 4<sup>th</sup> Oct, 2026 | 
 
 ## Contributors
 
