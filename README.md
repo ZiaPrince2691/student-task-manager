@@ -1,4 +1,4 @@
-# Student Task Management System
+# Student Task Manager
 
 ---
 

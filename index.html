@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Student Task Manager</h1>
+
+    <section class="card">
+      <form id="task-form">
+        <div class="form-group">
+          <label for="task-title">Task Title</label>
+          <input type="text" id="task-title" placeholder="e.g. Finish math assignment" required>
+        </div>
+
+        <div class="form-group">
+          <label for="task-description">Description</label>
+          <textarea id="task-description" placeholder="Add some details..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary">Add Task</button>
+      </form>
+    </section>
+
+    <section class="tasks-section">
+      <div class="tasks-header">
+        <h2>My Tasks <span id="task-count" class="badge">0</span></h2>
+      </div>
+
+      <input type="search" id="search-input" class="search" placeholder="Search tasks...">
+
+      <ul id="task-list" class="task-list"></ul>
+      <p id="empty-message" class="empty-message">No tasks yet. Add your first one above.</p>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
